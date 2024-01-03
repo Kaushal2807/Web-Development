@@ -1,0 +1,12 @@
+/* class= .
+Id=# */
+
+.red{
+    color: rgb(240, 21, 21);
+}
+.bg-yellow{
+    background-color: yellow;
+}
+#Seconddiv{
+    background-color: aqua;
+}
