@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+</head>
+<style>
+    /* Element Selector */
+    /* Class Selector */
+    .red {
+        background-color: red;
+    }
+
+    #green {
+        background-color: green;
+    }
+
+    /* Chlid Selector */
+    div>p {
+        color: blue;
+        background-color: aqua;
+    }
+
+    /* Decendant Selector */
+    div p {
+        color: blue;
+        background-color: aqua;
+    }
+
+    /* Universal Selector */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Pseudo Selector */
+    a:visited{
+        color: rgb(241, 4, 4);
+    }
+    a:link{
+        color:aquamarine
+    }
+    a:active{
+        background-color: blue;
+    }
+    /* a:hover{
+        background-color: yellow;
+    } */
+
+
+
+
+
+</style>
+
+<body>
+
+    <div class="red">
+        I am a div
+        <p>Hey I am here</p>
+    </div>
+
+    <div class="red">
+        I am a div
+        <article>
+            <p>Hey I am here</p>
+        </article>
+    </div>
+
+    <div id="green">
+        Hello World
+    </div>
+    <a href="http://www.google.com">GO TO GOOGLE</a>
+</body>
+
+</html>
